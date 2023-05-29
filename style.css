@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('./alessio-soggetti-vF1H1bR2SjQ-unsplash.jpg');
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+.countdown-container{
+    display: flex;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+
+}
